@@ -1,7 +1,8 @@
 #gemini
 
 from flask import Flask,request,render_template
-import google.generativeai as genai
+from google import genai
+import google.generativeai as genai1
 import os
 import sqlite3
 import datetime
