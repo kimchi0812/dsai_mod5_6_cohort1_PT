@@ -3,6 +3,7 @@
 from flask import Flask,request,render_template
 from google import genai
 import google.generativeai as genai1
+import google.generativeai as genai
 import os
 import sqlite3
 import datetime
